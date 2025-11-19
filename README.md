@@ -1,6 +1,7 @@
 Setup Instructions
 Before you can run the script, you need to install Python and the required libraries: Pandas and the Pillow (PIL) library.
 1. Install Python (If Not Already Installed)
+2. 
 Ensure you have a recent version of Python (3.6 or newer) installed on your machine.
 •	Check: Open your terminal (or Command Prompt) and type:
 Bash
