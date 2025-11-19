@@ -9,7 +9,7 @@ or
 python3 --version
 If you see a version number (e.g., Python 3.10.6), you're ready.
 •	Install: If Python is not found, download and install it from the official Python website. Make sure to check the box that says "Add Python to PATH" during installation.
-2. Install Required Libraries
+3. Install Required Libraries
 You must install the Pillow (PIL) library, which handles the image resizing, and Pandas, which was used for data handling in the original script but is now included for structure.
 •	Open your terminal/command prompt and run the following command:
 Bash
