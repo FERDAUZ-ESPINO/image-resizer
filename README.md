@@ -38,14 +38,33 @@ Method 2: Command Prompt (Recommended)
 5.	python image_resize.py
 
 ### Follow the Prompts
-The script will guide you through the process by asking for four pieces of information:
-Prompt	                Example Input	                                                          Description
-Input                   Folder Path	C:\Users\YourName\Desktop\Original_Photos	                  The path to the folder containing the images you want to resize.
-Output                  Folder Path	C:\Users\YourName\Desktop\Resized_Photos_800x600	          The path where the new, resized images will be saved. The script will create this folder if it doesn't exist.
-Width (pixels)	        800                                                                     The desired new width of the images.
-Height (pixels)	        600                                                                     The desired new height of the images.
+Resize Option
+  IMAGE RESIZE OPTION
+  Do you want to resize all downloaded images to a specific resolution?
+  
+  Resize images? (y/n):
+  •	Press y if you want all images resized to the same dimensions
+  •	Press n to keep original sizes
+  •	When to resize: 
+  o	Machine learning training (need uniform sizes)
+  o	Web thumbnails
+  o	Standardizing mixed-size images
+  If you chose y:
+  Enter target resolution:
+  Width (pixels): 1024
+  Height (pixels): 768
+  
+  Choose resampling method:
+  1. LANCZOS (highest quality, slowest) - RECOMMENDED
+  2. BICUBIC (high quality, faster)
+  3. BILINEAR (medium quality, fast)
+  4. NEAREST (lowest quality, fastest)
+  
+  Enter choice (1-4, default=1):
+  •	Enter your desired width and height
+  •	For quality, use option 1 (LANCZOS)
+  •	For speed with large batches, use option 2 or 3
 
-Resampling Choice	1 (for LANCZOS)	Select the quality/speed trade-off for the resizing algorithm. LANCZOS (option 1) is generally recommended for the best results.
 4. Review Results
 •	Once the script finishes, it will print a summary of the successful and failed resizes.
 •	The newly resized images will be available in the Output Folder you specified.
