@@ -86,6 +86,5 @@ IMAGE RESIZE OPTION
 4. Review Results
    
    •	Once the script finishes, it will print a summary of the successful and failed resizes.   
-   •	The newly resized images will be available in the Output Folder you specified.   
-   •	A log file (e.g., resize_log_2025-11-20_15-13-06.txt) will also be created in the output folder, detailing the processing outcome for every single file.
+   •	The newly resized images will be available in the Output Folder you specified.  
 
