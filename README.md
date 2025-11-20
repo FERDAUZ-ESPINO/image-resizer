@@ -31,8 +31,11 @@ ________________________________________
 Once Python and the libraries are installed, you can use the script to resize all images in a local folder.  
 
 ### Prepare Your Environment  
-1.	Download the Script: Save the provided Python Script.
-2.	Organize Images: Create a new folder or copy the path of an existing folder. This will be your Input Folder containing all the images you want to resize.
+1.	Download the Script: Save the provided Python Script by;
+- going to this github page: https://github.com/FERDAUZ-ESPINO/image-resizer
+- clicking on <> Code
+- then download zip
+2.	Organize Images: Create a new folder or copy the path of an existing folder with the downloaded images. This will be your Input Folder that contains all of the images you want to resize.
   
 ### Run the Script
 Method 1: Double-Click (Easiest)
