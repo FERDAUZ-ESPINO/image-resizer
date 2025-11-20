@@ -15,7 +15,7 @@ If you see a version number (e.g., Python 3.10.6), you're ready.
       •	Install: If Python is not found, download and install it from the official Python website.  
            Make sure to check the box that says "Add Python to PATH" during installation.  
  
-3. Install Required Libraries
+2. Install Required Libraries
 You must install the Pillow (PIL) library, which handles the image resizing, and Pandas, which was used for data handling in the original script but is now included for structure.
 
         •	Open your terminal/command prompt and run the following command:
@@ -39,6 +39,7 @@ Method 1: Double-Click (Easiest)
 1.	Find image_resize.py in File Explorer
 2.	Right-click → "Open with" → "Python"
 3.	A Command Prompt window will open
+
 Method 2: Command Prompt (Recommended)
 1.	Open Command Prompt
 2.	Navigate to script location: 
@@ -64,8 +65,9 @@ IMAGE RESIZE OPTION
   If you chose y:  
   Enter target resolution:  
   
-    Width (pixels): 1024  
-    Height (pixels): 768
+      Example:
+       Width (pixels): 1024  
+       Height (pixels): 768
   
   Choose resampling method:
   1. LANCZOS (highest quality, slowest) - RECOMMENDED
