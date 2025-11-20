@@ -39,7 +39,7 @@ Once Python and the libraries are installed, you can use the script to resize al
   
 ### Run the Script
 Method 1: Double-Click (Easiest)
-1.	Find image_resize.py in File Explorer
+1.	Find image_resize_local.py in File Explorer
 2.	Right-click → "Open with" → "Python"
 3.	A Command Prompt window will open
 
